@@ -16,7 +16,7 @@ public class DemoContenedorOneApplication {
 	@RequestMapping("/")
 	@ResponseBody
 	String home() {
-		return "Hello Many Word...";
+		return "Hello Many Word...         Estoy cambiando el texto para ver si cómo se actualiza";
 	}
 
 	@RequestMapping("/about")
